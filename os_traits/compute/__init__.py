@@ -44,4 +44,6 @@ TRAITS = [
     # Nova use this to indicate that an RP has inventories of PCI device(s)
     # managed by the nova-compute service
     'MANAGED_PCI_DEVICE',
+    # The compute manager supports share local fs (via virtiofs)
+    'SHARE_LOCAL_FS',
 ]
